@@ -18,6 +18,3 @@ jobs:
 
     - name: Build
       run: make
-
-    - name: Run
-      run: make run
