@@ -37,6 +37,20 @@
 //
 // Check out the `example.c` file for a complete example.
 //
+//
+// Code
+// ----
+//
+// The official git repository of game-of-life.h is hosted at:
+//
+//     https://github.com/San7o/game-of-life.h
+//
+// This is part of a bigger collection of header-only C99 libraries
+// called "micro-headers", contributions are welcome:
+//
+//     https://github.com/San7o/micro-headers
+//
+
 
 #ifndef _GAME_OF_LIFE_H_
 #define _GAME_OF_LIFE_H_
