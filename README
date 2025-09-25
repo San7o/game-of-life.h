@@ -1,0 +1,35 @@
+game-of-life.h
+--------------
+
+Conway's Game of Life logic implemented as a C99 header-only
+library.
+
+Author:  Giovanni Santini
+Mail:    giovanni.santini@proton.me
+License: MIT
+
+
+Usage
+-----
+
+Do this:
+
+  #define GAME_OF_LIFE_IMPLEMENTATION
+
+before you include this file in *one* C or C++ file to create the
+implementation.
+
+i.e. it should look like this:
+
+  #include ...
+  #include ...
+  #include ...
+  #define GAME_OF_LIFE_IMPLEMENTATION
+  #include "game-of-life.h"
+
+If you want basic printing functionality from this library, you
+need to #define GAME_OF_LIFE_PRINT
+
+To run a simultation, simply call `game_of_life_simulate`.
+
+Check out the `example.c` file for a complete example.
